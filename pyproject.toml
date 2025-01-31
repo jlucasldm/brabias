@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "brabias"
+version = "0.1.0"
+description = ""
+authors = ["Lucas <jlucas.ldm@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+sqlalchemy = "^2.0.37"
+dynaconf = "^3.2.7"
+openai = "^1.60.2"
+black = "^24.10.0"
+flake8 = "^7.1.1"
+asyncmy = "^0.2.10"
+pandas = "^2.2.3"
+spacy = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
